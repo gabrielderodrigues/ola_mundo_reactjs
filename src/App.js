@@ -1,10 +1,27 @@
-import AboutMe from "./Pages/AboutMe";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Initial from "./Pages/Initial";
-
-const page = window.location.pathname === '/' ? <Initial /> : <AboutMe />;
+import AboutMe from "./Pages/AboutMe";
 
 function App() {
-  return page;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route 
+          path="/" 
+          element={<Initial />}
+        />
+
+        <Route 
+          path="/about-me" 
+          element={<AboutMe />}
+        />
+
+        <Route 
+          path="*" element={<h1>Page Not Found</h1>}
+        />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
