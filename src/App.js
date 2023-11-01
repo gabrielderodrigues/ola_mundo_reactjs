@@ -1,10 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Initial from "./Pages/Initial";
 import AboutMe from "./Pages/AboutMe";
+import Menu from "./Components/Menu";
 
 function App() {
   return (
     <BrowserRouter>
+      <Menu />
       <Routes>
         <Route 
           path="/" 
