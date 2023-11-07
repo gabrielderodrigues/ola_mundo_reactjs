@@ -1,16 +1,16 @@
-.fotoSobreMim {
+.aboutMePhoto {
   margin-bottom: .5rem;
   margin-left: 1.5rem;
-  width: 40vw;
+  width: 15vw;
   float: right;
 }
 
-.subtitulo {
+.subtitle {
   margin-bottom: 2rem;
   font-size: 2.5rem;
 }
 
-.paragrafo {
+.paragraph {
   text-align: justify;
   font-size: 1.5rem;
   line-height: 2.25rem;
@@ -18,30 +18,30 @@
 }
 
 @media (max-width: 1100px) {
-  .fotoSobreMim {
+  .aboutMePhoto {
       float: none;
       display: block;
       margin: 0 auto 2rem;
-      width: 70vw;
+      width: 25vw;
   }
 
-  .paragrafo {
+  .paragraph {
       margin-bottom: 2rem;
   }
 }
 
 @media (max-width: 744px) {
-  .fotoSobreMim {
-      width: 100%;
+  .aboutMePhoto {
+      width: 50%;
   }
 
-  .subtitulo {
+  .subtitle {
       font-size: 1.5rem;
       line-height: 2rem;
       margin-bottom: 1.5rem;
   }
 
-  .paragrafo {
+  .paragraph {
       font-size: 1rem;
       line-height: 1.75rem;
   }

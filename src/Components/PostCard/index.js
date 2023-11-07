@@ -7,12 +7,12 @@ export default function PostCard({ post }) {
     <Link to={`/posts/${post.id}`}>
       <div className={styles.post}>
         <img 
-          className={styles.capa} 
+          className={styles.wallpaper} 
           src={`/assets/posts/${post.id}/capa.png`}
           alt="Imagem de capa do post."
         />
 
-        <h2 className={styles.titulo}>
+        <h2 className={styles.title}>
           {post.titulo}
         </h2>
         

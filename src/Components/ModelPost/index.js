@@ -3,17 +3,17 @@ import styles from './ModelPost.module.css';
 export default function ModelPost({ fotoCapa, titulo, children }) {
   const fotoCapaBackgroundImage = `url(${fotoCapa})`;
   return (
-    <article className={styles.postModeloContainer}>
+    <article className={styles.containerModelPost}>
       <div 
-        className={styles.fotoCapa} 
+        className={styles.wallpaperPhoto} 
         style={{ backgroundImage: fotoCapaBackgroundImage }}>
       </div>
 
-      <h2 className={styles.titulo}>
+      <h2 className={styles.title}>
         {titulo}
       </h2>
 
-      <div className={styles.postConteudoContainer}>
+      <div className={styles.containerContentPost}>
         {children}
       </div>
     </article>

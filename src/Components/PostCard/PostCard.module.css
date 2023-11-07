@@ -11,11 +11,11 @@
   transform: translate(0, -1rem);
 }
 
-.capa {
+.wallpaper {
   width: 100%;
 }
 
-.titulo {
+.title {
   font-family: var(--fonte-secundaria);
   font-size: 1.25rem;
   color: var(--azul-escuro);
@@ -27,7 +27,7 @@
   .post {
       width: 336px;
   }
-  .titulo {
+  .title {
       font-weight: 600;
   }
 }

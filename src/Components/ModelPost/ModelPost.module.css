@@ -1,14 +1,14 @@
-.postModeloContainer {
+.containerModelPost {
   color: var(--cor-fonte-post);
   position: relative;
 }
 
-.fotoCapa,
-.titulo {
+.wallpaperPhoto,
+.title {
   height: 204px;
 }
 
-.fotoCapa {
+.wallpaperPhoto {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@
   z-index: -1;
 }
 
-.titulo {
+.title {
   font-family: var(--fonte-secundaria);
   padding: 0 7.5rem;
   font-size: 4rem;
@@ -26,24 +26,24 @@
   align-items: center;
 }
 
-.postConteudoContainer {
+.containerContentPost {
   padding: 2.5rem 7.5rem 4.5rem;
 }
 
 @media (max-width: 744px) {
-  .postConteudoContainer {
+  .containerContentPost {
       padding: 2rem 1.5rem 1.5rem;
   }
 }
 
 @media (max-width: 744px) {
 
-  .fotoCapa,
-  .titulo {
+  .wallpaperPhoto,
+  .title {
       height: 104px;
   }
 
-  .titulo {
+  .title {
       padding: 0 1rem;
       font-size: 2rem;
   }

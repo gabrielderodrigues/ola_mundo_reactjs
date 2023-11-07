@@ -8,25 +8,25 @@ export default function NotFound() {
 
   return (
     <>
-      <div className={styles.conteudoContainer}>
-        <span className={styles.texto404}>
+      <div className={styles.containerContent}>
+        <span className={styles.text404}>
           404
         </span>
 
-        <h1 className={styles.titulo}>
+        <h1 className={styles.title}>
           Ops! Página não encontrada.
         </h1>
 
-        <p className={styles.paragrafo}>
+        <p className={styles.paragraph}>
           Tem certeza de que era isso que você estava procurando?
         </p>
 
-        <p className={styles.paragrafo}>
+        <p className={styles.paragraph}>
           Aguarde uns instantes e recarregue a página, ou volte para a página inicial.
         </p>
 
         <div 
-          className={styles.botaoContainer}
+          className={styles.containerButton}
           onClick={() => navigate(-1)}
         >
           <MainButton length="lg">
@@ -35,13 +35,13 @@ export default function NotFound() {
         </div>
 
         <img 
-          className={styles.imagemCachorro}
+          className={styles.dogPhoto}
           src={erro404}
           alt="cachorro de óculos vestido como humano."
         /> 
       </div>
 
-      <div className={styles.espacoEmBranco}>
+      <div className={styles.whiteSpace}>
       </div>
     </>
   );
