@@ -4,6 +4,7 @@ import AboutMe from "./pages/AboutMe";
 import Menu from "./components/Menu";
 import Footer from "components/Footer";
 import DefaultPage from "components/DefaultPage";
+import Post from "pages/Post";
 
 function AppRoutes() {
   return (
@@ -20,6 +21,11 @@ function AppRoutes() {
           <Route 
             path="/about-me" 
             element={<AboutMe />}
+          />
+
+          <Route 
+            path="/posts/:id" 
+            element={<Post />}
           />
         </Route>
 
