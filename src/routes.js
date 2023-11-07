@@ -23,13 +23,13 @@ function AppRoutes() {
             path="/about-me" 
             element={<AboutMe />}
           />
+        </Route>
 
-          <Route 
+
+        <Route 
             path="/posts/:id" 
             element={<Post />}
           />
-        </Route>
-
         <Route 
           path="*" element={<NotFound />}
         />
