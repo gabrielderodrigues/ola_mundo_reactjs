@@ -10,5 +10,6 @@
 
 
 .linkHighlighted {
-  text-decoration: underline;
+  text-decoration: underline #fef200;
+  padding: 15px;
 }
