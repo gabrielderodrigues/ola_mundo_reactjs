@@ -4,15 +4,15 @@
   padding: 0.75rem 1.5rem;
   font-size: 1.125rem;
   line-height: 1.125rem;
-  background-color: var(--azul-medio);
-  color: var(--branco);
-  border: 3px solid var(--azul-medio);
+  background-color: #fef200;
+  color: #12100f;
+  border: 3px solid #fef200;
   cursor: pointer;
   transition: 0.2s
 }
 
-.mainButton :hover {
-  border: 3px solid var(--azul-escuro);
+.mainButton:hover {
+  border: 3px solid #12100f;
 }
 
 .mainButton.lg {

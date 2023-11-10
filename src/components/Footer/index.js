@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <RegisteredBrand />
-      Developed by Alura.
+      Developed by <a href="https://github.com/gabrielderodrigues">Gabriel</a>.
     </footer>
   );
 }
